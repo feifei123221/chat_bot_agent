@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+certs/
+chat_history.db
+knowledge_index.db
+# 密钥保险箱（绝对不上传！）
+.env
+
+# 本地数据库（包含你的聊天记录、密码哈希，不上传）
+chat_history.db
+
+# 虚拟环境（包含你电脑的绝对路径和几百兆的垃圾文件，坚决不上传！）
+.venv/
+
+# 本地安全证书
+certs/
+
+# Python 缓存
+__pycache__/
+*.pyc
